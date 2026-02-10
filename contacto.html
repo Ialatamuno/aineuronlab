@@ -157,7 +157,10 @@
                             <h2 class="font-display font-bold text-3xl text-white mb-8">Información de Contacto</h2>
 
                             <div class="space-y-6">
-
+                                <!-- 
+                                    EDITAR INFORMACIÓN DE CONTACTO
+                                    Aquí puedes actualizar los horarios, teléfono y correo visible.
+                                -->
                                 <!-- Hours -->
                                 <div class="flex items-start">
                                     <div
@@ -278,6 +281,15 @@
                             <p class="text-gray-400 mb-8">Completa el formulario y te responderemos en menos de 24 horas
                             </p>
 
+                            <!-- 
+                                NOTA IMPORTANTE SOBRE EL BACKEND (FORMULARIO):
+                                Como esta es una página estática en GitHub Pages, el formulario no enviará correos por sí solo.
+                                Tienes 3 opciones para hacerlo funcionar:
+                                1. Usar un servicio externo como Formspree (Gratis/Pago):
+                                   Cambia la etiqueta <form> a: <form action="https://formspree.io/f/TU_ID_DE_FORMSPREE" method="POST">
+                                2. Conectar con un backend propio (PHP/Node.js) si alojas la web en otro servidor.
+                                3. Usar EmailJS para enviar correos desde JavaScript.
+                            -->
                             <form action="#" method="POST" id="contact-form" class="space-y-6">
 
                                 <!-- Name -->
