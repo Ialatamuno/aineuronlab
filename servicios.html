@@ -130,10 +130,25 @@
 
         <!-- Hero Section -->
         <section class="relative h-[50vh] flex items-center justify-center bg-dark-900 overflow-hidden">
-            <!-- Background Image -->
-            <div class="absolute inset-0 z-0">
-                <img src="images/servicios_hero.jpg" alt="AI Services" class="w-full h-full object-cover opacity-60">
-                <div class="absolute inset-0 bg-gradient-to-b from-dark-900/90 via-dark-900/70 to-dark-900"></div>
+            <!-- Animated Gradient Background -->
+            <div class="absolute inset-0 z-0 bg-gradient-to-br from-dark-900 via-dark-800 to-dark-900">
+                <div class="absolute inset-0 opacity-30"
+                    style="background-image: radial-gradient(#4f46e5 1px, transparent 1px); background-size: 30px 30px;">
+                </div>
+                <div
+                    class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-dark-900/50 to-dark-900">
+                </div>
+
+                <!-- Animated Blobs -->
+                <div
+                    class="absolute top-0 -left-4 w-72 h-72 bg-primary/30 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob">
+                </div>
+                <div
+                    class="absolute top-0 -right-4 w-72 h-72 bg-accent/30 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000">
+                </div>
+                <div
+                    class="absolute -bottom-8 left-20 w-72 h-72 bg-secondary/30 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000">
+                </div>
             </div>
 
             <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
