@@ -1,0 +1,27 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary Files
+*.tmp
+*.log
+*.cache
+
+# PHP
+vendor/
+composer.lock
+
+# Environment Files
+.env
+.env.local
+
+# User Uploads (if you add this later)
+uploads/
