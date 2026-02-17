@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script> -->
+
     <title>Contacto | AI Neuron Lab</title>
     <meta name="description" content="Contáctanos para comenzar tu proyecto de IA. Estamos en Asunción, Paraguay.">
 
@@ -71,6 +80,9 @@
                     <a href="servicios.html" class="nav-link text-gray-300 hover:text-primary">
                         Servicios
                     </a>
+
+                    <!-- Language Selector -->
+                    <div id="google_translate_element" class="hidden lg:block ml-4"></div>
 
                     <!-- CTA Button -->
                     <a href="contacto.html"
@@ -325,23 +337,55 @@
                                         placeholder="Nombre de tu empresa">
                                 </div>
 
-                                <!-- Service Type -->
+                                <!-- Service Type (Multi-Project Selection) -->
                                 <div>
-                                    <label for="service" class="block text-white font-semibold mb-2">
-                                        Servicio de Interés <span class="text-primary">*</span>
+                                    <label class="block text-white font-semibold mb-3">
+                                        Servicios de Interés <span class="text-primary">*</span>
                                     </label>
-                                    <select id="service" name="service" required
-                                        class="w-full px-4 py-3 bg-dark-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/50 transition-all">
-                                        <option value="">Selecciona un servicio</option>
-                                        <option value="deep-learning">Deep Learning</option>
-                                        <option value="automatizacion">Automatización</option>
-                                        <option value="chatbots">Chatbots</option>
-                                        <option value="analytics">Analítica Predictiva</option>
-                                        <option value="vision">Visión por Computadora</option>
-                                        <option value="nlp">Procesamiento de Lenguaje</option>
-                                        <option value="consultoria">Consultoría</option>
-                                        <option value="otro">Otro</option>
-                                    </select>
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                        <label
+                                            class="flex items-center space-x-3 p-4 bg-dark-700 border border-gray-600 rounded-lg cursor-pointer hover:border-primary transition-all group">
+                                            <input type="checkbox" name="services[]" value="deep-learning"
+                                                class="w-5 h-5 rounded border-gray-600 text-primary focus:ring-primary bg-dark-600">
+                                            <span class="text-gray-300 group-hover:text-white transition-colors">Deep
+                                                Learning</span>
+                                        </label>
+                                        <label
+                                            class="flex items-center space-x-3 p-4 bg-dark-700 border border-gray-600 rounded-lg cursor-pointer hover:border-primary transition-all group">
+                                            <input type="checkbox" name="services[]" value="automatizacion"
+                                                class="w-5 h-5 rounded border-gray-600 text-primary focus:ring-primary bg-dark-600">
+                                            <span
+                                                class="text-gray-300 group-hover:text-white transition-colors">Automatización</span>
+                                        </label>
+                                        <label
+                                            class="flex items-center space-x-3 p-4 bg-dark-700 border border-gray-600 rounded-lg cursor-pointer hover:border-primary transition-all group">
+                                            <input type="checkbox" name="services[]" value="chatbots"
+                                                class="w-5 h-5 rounded border-gray-600 text-primary focus:ring-primary bg-dark-600">
+                                            <span
+                                                class="text-gray-300 group-hover:text-white transition-colors">Chatbots</span>
+                                        </label>
+                                        <label
+                                            class="flex items-center space-x-3 p-4 bg-dark-700 border border-gray-600 rounded-lg cursor-pointer hover:border-primary transition-all group">
+                                            <input type="checkbox" name="services[]" value="analytics"
+                                                class="w-5 h-5 rounded border-gray-600 text-primary focus:ring-primary bg-dark-600">
+                                            <span
+                                                class="text-gray-300 group-hover:text-white transition-colors">Analítica</span>
+                                        </label>
+                                        <label
+                                            class="flex items-center space-x-3 p-4 bg-dark-700 border border-gray-600 rounded-lg cursor-pointer hover:border-primary transition-all group">
+                                            <input type="checkbox" name="services[]" value="vision"
+                                                class="w-5 h-5 rounded border-gray-600 text-primary focus:ring-primary bg-dark-600">
+                                            <span class="text-gray-300 group-hover:text-white transition-colors">Visión
+                                                Artificial</span>
+                                        </label>
+                                        <label
+                                            class="flex items-center space-x-3 p-4 bg-dark-700 border border-gray-600 rounded-lg cursor-pointer hover:border-primary transition-all group">
+                                            <input type="checkbox" name="services[]" value="consultoria"
+                                                class="w-5 h-5 rounded border-gray-600 text-primary focus:ring-primary bg-dark-600">
+                                            <span
+                                                class="text-gray-300 group-hover:text-white transition-colors">Consultoría</span>
+                                        </label>
+                                    </div>
                                 </div>
 
                                 <!-- Message -->
@@ -489,10 +533,23 @@
 
     <!-- Scripts -->
     <script src="script.js"></script>
+    <!-- Dynamic year -->
     <script>
-        // Dynamic year
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
+
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'es',
+                includedLanguages: 'en,pt,es',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 

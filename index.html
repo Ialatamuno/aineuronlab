@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script> -->
+
     <title>AI Neuron Lab | Soluciones de Inteligencia Artificial en Paraguay</title>
     <meta name="description"
         content="Transformamos tu negocio con IA. Deep Learning, Automatización y Chatbots inteligentes desde Paraguay.">
@@ -80,6 +89,9 @@
                     <a href="servicios.html" class="nav-link text-gray-300 hover:text-primary">
                         Servicios
                     </a>
+
+                    <!-- Language Selector -->
+                    <div id="google_translate_element" class="hidden lg:block ml-4"></div>
 
                     <!-- CTA Button -->
                     <a href="contacto.html"
@@ -491,8 +503,9 @@
         <section class="relative py-32 overflow-hidden">
             <!-- Background -->
             <div class="absolute inset-0 bg-dark-900"></div>
-            <div class="absolute inset-0 opacity-20">
-                <div class="absolute inset-0 bg-gradient-to-r from-primary via-accent to-secondary"></div>
+            <div class="absolute inset-0 opacity-40">
+                <img src="images/cta-bg.png" alt="Background" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-dark-900/60"></div>
             </div>
 
             <!-- Content -->
@@ -707,10 +720,23 @@
 
     <!-- Scripts -->
     <script src="script.js"></script>
+    <!-- Dynamic year -->
     <script>
-        // Dynamic year
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
+
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'es',
+                includedLanguages: 'en,pt,es',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!-- AOS Animation Library -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

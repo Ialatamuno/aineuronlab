@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script> -->
+
     <title>Servicios | AI Neuron Lab</title>
     <meta name="description"
         content="Descubre nuestros servicios de IA: Deep Learning, Automatización, Chatbots, Analítica Predictiva y más.">
@@ -72,6 +81,9 @@
                     <a href="servicios.html" class="nav-link active text-primary">
                         Servicios
                     </a>
+
+                    <!-- Language Selector -->
+                    <div id="google_translate_element" class="hidden lg:block ml-4"></div>
 
                     <!-- CTA Button -->
                     <a href="contacto.html"
@@ -611,7 +623,13 @@
         </section>
 
         <!-- Final CTA -->
-        <section class="py-20 bg-gradient-to-r from-primary via-accent to-secondary">
+        <section class="relative py-20 overflow-hidden">
+            <!-- Background -->
+            <div class="absolute inset-0 bg-dark-900"></div>
+            <div class="absolute inset-0 opacity-40">
+                <img src="images/cta-bg.png" alt="Background" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-dark-900/60"></div>
+            </div>
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h2 class="font-display font-bold text-4xl md:text-5xl text-white mb-6">
                     ¿Tienes un proyecto en mente?
@@ -742,10 +760,23 @@
 
     <!-- Scripts -->
     <script src="script.js"></script>
+    <!-- Dynamic year -->
     <script>
-        // Dynamic year
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
+
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'es',
+                includedLanguages: 'en,pt,es',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 
