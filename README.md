@@ -114,7 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
     
-    $to = "contacto@aineuronlab.com";
+    $to = "aineuronlab@gmail.com";
     $subject = "Nuevo mensaje de contacto - $name";
     $body = "Nombre: $name\nEmail: $email\n\nMensaje:\n$message";
     $headers = "From: $email";
@@ -147,8 +147,8 @@ $stmt->execute([$name, $email, $message]);
 
 ### Actualizar Información de Contacto
 
-- **Teléfono**: Buscar y reemplazar `+595 981 234 567` en todos los archivos
-- **Email**: Buscar y reemplazar `contacto@aineuronlab.com`
+- **Teléfono**: Buscar y reemplazar `0982 602211` en todos los archivos
+- **Email**: Buscar y reemplazar `aineuronlab@gmail.com`
 - **Dirección**: Actualizar en `includes/footer.php` y `contacto.php`
 
 ### Agregar Nuevos Servicios
@@ -231,4 +231,4 @@ $page_description = "Tu descripción SEO optimizada";
 
 ## 👨‍💻 Desarrollado con ❤️ por AI Neuron Lab
 
-Para soporte técnico: contacto@aineuronlab.com
+Para soporte técnico: aineuronlab@gmail.com
