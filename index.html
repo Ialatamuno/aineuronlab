@@ -141,6 +141,13 @@
                     class="mt-8 px-8 py-3 bg-gradient-to-r from-accent to-primary rounded-lg text-white font-semibold text-xl">
                     Comenzar Proyecto
                 </a>
+
+                <!-- Mobile Language Selector -->
+                <div class="flex items-center space-x-6 pt-10">
+                    <button onclick="changeLanguage('es')" class="lang-flag text-4xl" title="Español">🇪🇸</button>
+                    <button onclick="changeLanguage('en')" class="lang-flag text-4xl" title="English">🇺🇸</button>
+                    <button onclick="changeLanguage('pt')" class="lang-flag text-4xl" title="Português">🇧🇷</button>
+                </div>
             </nav>
         </div>
     </div>
@@ -748,6 +755,17 @@
             if (select) {
                 select.value = langCode;
                 select.dispatchEvent(new Event('change'));
+
+                // Highlight active flag
+                document.querySelectorAll('.lang-flag').forEach(btn => {
+                    btn.classList.remove('active');
+                    if (btn.getAttribute('onclick').includes(langCode)) {
+                        btn.classList.add('active');
+                    }
+                });
+            } else {
+                // If the widget hasn't loaded yet, try again in 500ms
+                setTimeout(() => changeLanguage(langCode), 500);
             }
         }
     </script>
