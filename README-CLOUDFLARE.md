@@ -91,8 +91,8 @@ npx http-server
 
 ## 📧 Contacto
 
-- **Email**: contacto@aineuronlab.com
-- **Teléfono**: +595 981 234 567
+- **Email**: aineuronlab@gmail.com
+- **Teléfono**: 0982 602211
 - **Ubicación**: Asunción, Paraguay
 
 ---
