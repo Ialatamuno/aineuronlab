@@ -81,8 +81,15 @@
                         Servicios
                     </a>
 
-                    <!-- Language Selector -->
-                    <div id="google_translate_element" class="hidden lg:block ml-4"></div>
+                    <!-- Language Selector (Flags) -->
+                    <div class="flex items-center space-x-3 ml-4">
+                        <button onclick="changeLanguage('es')" class="lang-flag" title="Español">🇪🇸</button>
+                        <button onclick="changeLanguage('en')" class="lang-flag" title="English">🇺🇸</button>
+                        <button onclick="changeLanguage('pt')" class="lang-flag" title="Português">🇧🇷</button>
+                    </div>
+
+                    <!-- Hidden Original Widget -->
+                    <div id="google_translate_element" style="display:none"></div>
 
                     <!-- CTA Button -->
                     <a href="contacto.html"
@@ -544,8 +551,17 @@
             new google.translate.TranslateElement({
                 pageLanguage: 'es',
                 includedLanguages: 'en,pt,es',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
             }, 'google_translate_element');
+        }
+
+        function changeLanguage(langCode) {
+            var select = document.querySelector('select.goog-te-combo');
+            if (select) {
+                select.value = langCode;
+                select.dispatchEvent(new Event('change'));
+            }
         }
     </script>
     <script type="text/javascript"
