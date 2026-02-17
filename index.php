@@ -7,9 +7,9 @@ include 'includes/header.php';
 
 <!-- Hero Section -->
 <section class="relative h-screen flex items-center justify-center overflow-hidden">
-    <!-- Background Image with Overlay -->
+    <!-- Background Video/GIF with Overlay -->
     <div class="absolute inset-0 z-0">
-        <img src="C:/Users/Usuario/.gemini/antigravity/brain/f4442f7c-5411-4d09-9a13-698786963466/hero_ai_lab_1770727120896.png"
+        <img src="https://jrxqdxbjwnbysccadpwa.supabase.co/storage/v1/object/sign/video/69e61b25-ee83-4b50-9359-85206d3feb53-ezgif.com-video-to-gif-converter.gif?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80YWVlOWQ0Ny1iZGIzLTRlYzctODk3YS0yZTVmODkzMjVhYzMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlby82OWU2MWIyNS1lZTgzLTRiNTAtOTM1OS04NTIwNmQzZmViNTMtZXpnaWYuY29tLXZpZGVvLXRvLWdpZi1jb252ZXJ0ZXIuZ2lmIiwiaWF0IjoxNzcxMzM0MDA4LCJleHAiOjE3NzE5Mzg4MDh9.tY4H-ZRopHHZstZnlijTU2EfDxRQPdxjPise2aECFcQ"
             alt="AI Neuron Lab" class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-gradient-to-b from-dark-900/80 via-dark-900/60 to-dark-900"></div>
     </div>
