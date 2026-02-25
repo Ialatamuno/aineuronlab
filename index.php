@@ -9,7 +9,7 @@ include 'includes/header.php';
 <section class="relative h-screen flex items-center justify-center overflow-hidden">
     <!-- Background Video/GIF with Overlay -->
     <div class="absolute inset-0 z-0">
-        <img src="images/hero.jpg" alt="AI Neuron Lab" class="w-full h-full object-cover">
+        <img src="images/hero-background.gif" alt="AI Neuron Lab" class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-gradient-to-b from-dark-900/80 via-dark-900/60 to-dark-900"></div>
     </div>
 
