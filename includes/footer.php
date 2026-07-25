@@ -20,8 +20,8 @@
                     </span>
                 </div>
                 <p class="text-gray-400 text-sm leading-relaxed">
-                    Transformamos negocios con soluciones de inteligencia artificial de vanguardia. Deep Learning,
-                    Automatización y Chatbots inteligentes.
+                    Transformamos negocios con soluciones de inteligencia artificial de vanguardia. Deep Learning y
+                    Automatización.
                 </p>
             </div>
 
@@ -41,35 +41,10 @@
                             <i class="fas fa-chevron-right text-xs mr-2"></i> Servicios
                         </a>
                     </li>
-                    <li>
-                        <a href="contacto.php"
-                            class="text-gray-400 hover:text-primary transition-colors flex items-center">
-                            <i class="fas fa-chevron-right text-xs mr-2"></i> Contacto
-                        </a>
-                    </li>
-                </ul>
+                    </ul>
             </div>
 
-            <!-- Column 3: Hours -->
-            <div>
-                <h3 class="text-white font-bold text-lg mb-4 font-display">Horarios</h3>
-                <ul class="space-y-3 text-gray-400 text-sm">
-                    <li class="flex items-start">
-                        <i class="fas fa-clock text-primary mr-3 mt-1"></i>
-                        <div>
-                            <p class="font-semibold text-white">Lunes - Viernes</p>
-                            <p>9:00 AM - 6:00 PM</p>
-                        </div>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-calendar-xmark text-primary mr-3 mt-1"></i>
-                        <div>
-                            <p class="font-semibold text-white">Fines de Semana</p>
-                            <p>Cerrado</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+
 
             <!-- Column 4: Contact -->
             <div>
@@ -77,12 +52,13 @@
                 <ul class="space-y-3 text-gray-400 text-sm">
                     <li class="flex items-start">
                         <i class="fas fa-map-marker-alt text-primary mr-3 mt-1"></i>
-                        <span>Asunción, Paraguay</span>
+                        <div>
+                            <p class="font-semibold text-white">Korea Office</p>
+                            <p>309 Gangnam-daero, Seocho-gu</p>
+                            <p>Seoul, Republic of Korea</p>
+                        </div>
                     </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-phone text-primary mr-3 mt-1"></i>
-                        <a href="tel:+595981234567" class="hover:text-primary transition-colors">+595 981 234 567</a>
-                    </li>
+
                     <li class="flex items-start">
                         <i class="fas fa-envelope text-primary mr-3 mt-1"></i>
                         <a href="mailto:contacto@aineuronlab.com"
@@ -90,24 +66,6 @@
                     </li>
                 </ul>
 
-                <!-- Social Media -->
-                <div class="mt-6">
-                    <h4 class="text-white font-semibold mb-3">Síguenos</h4>
-                    <div class="flex space-x-4">
-                        <a href="#"
-                            class="w-10 h-10 bg-dark-700 rounded-lg flex items-center justify-center text-gray-400 hover:bg-gradient-to-r hover:from-accent hover:to-primary hover:text-white transition-all duration-300">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="#"
-                            class="w-10 h-10 bg-dark-700 rounded-lg flex items-center justify-center text-gray-400 hover:bg-gradient-to-r hover:from-accent hover:to-primary hover:text-white transition-all duration-300">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="#"
-                            class="w-10 h-10 bg-dark-700 rounded-lg flex items-center justify-center text-gray-400 hover:bg-gradient-to-r hover:from-accent hover:to-primary hover:text-white transition-all duration-300">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
             </div>
 
         </div>

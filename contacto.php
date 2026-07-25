@@ -1,6 +1,6 @@
 <?php
 $page_title = "Contacto | AI Neuron Lab";
-$page_description = "Contáctanos para comenzar tu proyecto de IA. Estamos en Asunción, Paraguay.";
+$page_description = "Contáctanos para comenzar tu proyecto de IA.";
 $current_page = "contacto";
 include 'includes/header.php';
 ?>
@@ -49,48 +49,7 @@ include 'includes/header.php';
                             </div>
                         </div>
 
-                        <!-- Location -->
-                        <div class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center mr-4">
-                                <i class="fas fa-map-marker-alt text-accent text-xl"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-semibold text-white mb-1">Ubicación</h3>
-                                <p class="text-gray-400">Asunción, Paraguay</p>
-                                <p class="text-gray-500 text-sm">Ubicación exacta al confirmar reunión</p>
-                            </div>
-                        </div>
 
-                        <!-- Phone -->
-                        <div class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-12 h-12 bg-secondary/20 rounded-lg flex items-center justify-center mr-4">
-                                <i class="fas fa-phone text-secondary text-xl"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-semibold text-white mb-1">Teléfono</h3>
-                                <a href="tel:+595981234567" class="text-primary hover:text-accent transition-colors">
-                                    +595 981 234 567
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- WhatsApp -->
-                        <div class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mr-4">
-                                <i class="fab fa-whatsapp text-green-400 text-xl"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-semibold text-white mb-1">WhatsApp</h3>
-                                <a href="https://wa.me/595981234567" target="_blank"
-                                    class="text-primary hover:text-accent transition-colors">
-                                    +595 981 234 567
-                                </a>
-                                <p class="text-gray-500 text-sm">Respuesta rápida por WhatsApp</p>
-                            </div>
-                        </div>
 
                         <!-- Email -->
                         <div class="flex items-start">
@@ -241,49 +200,6 @@ include 'includes/header.php';
     </div>
 </section>
 
-<!-- Map Section -->
-<section class="py-20 bg-dark-900">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div class="text-center mb-12">
-            <h2 class="font-display font-bold text-4xl md:text-5xl text-white mb-4">
-                ¿Cómo <span class="gradient-text">Llegar</span>?
-            </h2>
-            <p class="text-gray-400">Estamos ubicados en Asunción, Paraguay</p>
-        </div>
-
-        <!-- Map Container -->
-        <div class="rounded-2xl overflow-hidden shadow-2xl">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115396.06267184245!2d-57.67691684999999!3d-25.282196699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da8c05a0d0df7%3A0x9fb713d3d3cb9ca!2sAsunci%C3%B3n%2C%20Paraguay!5e0!3m2!1sen!2s!4v1234567890"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                class="grayscale"></iframe>
-        </div>
-
-        <!-- Transportation Info -->
-        <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-
-            <div class="bg-dark-800 rounded-lg p-6 text-center">
-                <i class="fas fa-car text-3xl text-primary mb-3"></i>
-                <h3 class="font-display font-bold text-white mb-2">En Auto</h3>
-                <p class="text-gray-400 text-sm">Estacionamiento disponible en la zona</p>
-            </div>
-
-            <div class="bg-dark-800 rounded-lg p-6 text-center">
-                <i class="fas fa-bus text-3xl text-accent mb-3"></i>
-                <h3 class="font-display font-bold text-white mb-2">Transporte Público</h3>
-                <p class="text-gray-400 text-sm">Varias líneas de bus disponibles</p>
-            </div>
-
-            <div class="bg-dark-800 rounded-lg p-6 text-center">
-                <i class="fas fa-taxi text-3xl text-secondary mb-3"></i>
-                <h3 class="font-display font-bold text-white mb-2">Taxi / Uber</h3>
-                <p class="text-gray-400 text-sm">Servicios de taxi disponibles 24/7</p>
-            </div>
-
-        </div>
-
-    </div>
-</section>
 
 <?php include 'includes/footer.php'; ?>

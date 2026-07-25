@@ -92,8 +92,7 @@ npx http-server
 ## 📧 Contacto
 
 - **Email**: aineuronlab@gmail.com
-- **Teléfono**: 0982 602211
-- **Ubicación**: Asunción, Paraguay
+- **Ubicación**: Korea Office: 309 Gangnam-daero, Seocho-gu, Seoul, Republic of Korea
 
 ---
 
