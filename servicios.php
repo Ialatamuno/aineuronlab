@@ -36,10 +36,7 @@ include 'includes/header.php';
                 class="whitespace-nowrap text-gray-400 hover:text-primary transition-colors pb-2 border-b-2 border-transparent hover:border-primary font-semibold">
                 Automatización
             </a>
-            <a href="#chatbots"
-                class="whitespace-nowrap text-gray-400 hover:text-primary transition-colors pb-2 border-b-2 border-transparent hover:border-primary font-semibold">
-                Chatbots
-            </a>
+
             <a href="#consultoria"
                 class="whitespace-nowrap text-gray-400 hover:text-primary transition-colors pb-2 border-b-2 border-transparent hover:border-primary font-semibold">
                 Consultoría
@@ -277,126 +274,7 @@ include 'includes/header.php';
     </div>
 </section>
 
-<!-- Chatbots Section -->
-<section id="chatbots" class="py-24 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div class="text-center mb-12">
-            <h2 class="font-display font-bold text-4xl md:text-5xl text-dark-900 mb-4">
-                <span class="gradient-text">Chatbots</span> & Asistentes Virtuales
-            </h2>
-            <div class="w-24 h-1 bg-gradient-to-r from-secondary to-primary mx-auto rounded-full"></div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-            <!-- Service Item -->
-            <div class="bg-white rounded-lg shadow-lg p-8 border-t-4 border-primary hover:shadow-xl transition-shadow">
-                <div class="text-center mb-4">
-                    <div class="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-4">
-                        <i class="fas fa-comments text-primary text-2xl"></i>
-                    </div>
-                    <h3 class="font-display font-bold text-2xl text-dark-900 mb-2">Chatbot Web</h3>
-                    <span class="px-3 py-1 bg-primary/20 text-primary text-xs font-bold rounded-full">BÁSICO</span>
-                </div>
-                <p class="text-gray-600 mb-6 text-center">Asistente para tu sitio web con IA conversacional.</p>
-                <ul class="space-y-3 text-gray-700 mb-6">
-                    <li class="flex items-start">
-                        <i class="fas fa-check text-primary mr-2 mt-1"></i>
-                        <span>Widget personalizado</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-check text-primary mr-2 mt-1"></i>
-                        <span>Respuestas automáticas</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-check text-primary mr-2 mt-1"></i>
-                        <span>Base de conocimiento</span>
-                    </li>
-                </ul>
-                <p class="text-center text-2xl font-bold text-dark-900 mb-2">USD 1,200</p>
-                <p class="text-center text-sm text-gray-500">Setup inicial + soporte</p>
-            </div>
-
-            <!-- Service Item - Featured -->
-            <div
-                class="bg-gradient-to-br from-accent to-primary text-white rounded-lg shadow-2xl p-8 transform scale-105 relative">
-                <div
-                    class="absolute -top-4 left-1/2 transform -translate-x-1/2 px-4 py-1 bg-secondary rounded-full text-xs font-bold">
-                    MÁS POPULAR
-                </div>
-                <div class="text-center mb-4">
-                    <div class="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-full mb-4">
-                        <i class="fab fa-whatsapp text-3xl"></i>
-                    </div>
-                    <h3 class="font-display font-bold text-2xl mb-2">Bot WhatsApp</h3>
-                    <span class="px-3 py-1 bg-white/20 text-xs font-bold rounded-full">PROFESIONAL</span>
-                </div>
-                <p class="mb-6 text-center text-white/90">Automatiza atención 24/7 en WhatsApp Business.</p>
-                <ul class="space-y-3 mb-6">
-                    <li class="flex items-start">
-                        <i class="fas fa-check mr-2 mt-1"></i>
-                        <span>Integración WhatsApp API</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-check mr-2 mt-1"></i>
-                        <span>IA conversacional avanzada</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-check mr-2 mt-1"></i>
-                        <span>CRM integration</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-check mr-2 mt-1"></i>
-                        <span>Analytics detallados</span>
-                    </li>
-                </ul>
-                <p class="text-center text-3xl font-bold mb-2">USD 2,500</p>
-                <p class="text-center text-sm text-white/80">Setup + 3 meses soporte</p>
-            </div>
-
-            <!-- Service Item -->
-            <div
-                class="bg-white rounded-lg shadow-lg p-8 border-t-4 border-secondary hover:shadow-xl transition-shadow">
-                <div class="text-center mb-4">
-                    <div class="inline-flex items-center justify-center w-16 h-16 bg-secondary/10 rounded-full mb-4">
-                        <i class="fas fa-microphone text-secondary text-2xl"></i>
-                    </div>
-                    <h3 class="font-display font-bold text-2xl text-dark-900 mb-2">Asistente de Voz</h3>
-                    <span
-                        class="px-3 py-1 bg-secondary/20 text-secondary text-xs font-bold rounded-full">EMPRESARIAL</span>
-                </div>
-                <p class="text-gray-600 mb-6 text-center">IA conversacional con reconocimiento de voz.</p>
-                <ul class="space-y-3 text-gray-700 mb-6">
-                    <li class="flex items-start">
-                        <i class="fas fa-check text-secondary mr-2 mt-1"></i>
-                        <span>Speech-to-text</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-check text-secondary mr-2 mt-1"></i>
-                        <span>Respuestas por voz</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-check text-secondary mr-2 mt-1"></i>
-                        <span>Multilenguaje</span>
-                    </li>
-                </ul>
-                <p class="text-center text-2xl font-bold text-dark-900 mb-2">Cotización</p>
-                <p class="text-center text-sm text-gray-500">Según complejidad</p>
-            </div>
-
-        </div>
-
-        <div class="mt-12 bg-blue-50 border-l-4 border-primary p-6 rounded-lg">
-            <p class="text-gray-700">
-                <i class="fas fa-info-circle text-primary mr-2"></i>
-                <strong>Nota:</strong> Todos nuestros chatbots incluyen entrenamiento personalizado, mantenimiento
-                mensual opcional y soporte técnico continuo.
-            </p>
-        </div>
-
-    </div>
-</section>
 
 <!-- Consultoría Section -->
 <section id="consultoria" class="py-24 bg-dark-900">
