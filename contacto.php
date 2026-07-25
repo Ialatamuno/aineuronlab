@@ -141,7 +141,7 @@ include 'includes/header.php';
                             </label>
                             <input type="tel" id="phone" name="phone"
                                 class="w-full px-4 py-3 bg-dark-700 border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/50 transition-all"
-                                placeholder="+595 XXX XXX XXX">
+                                placeholder="+82 10-XXXX-XXXX">
                         </div>
 
                         <!-- Company -->
@@ -164,7 +164,7 @@ include 'includes/header.php';
                                 <option value="">Selecciona un servicio</option>
                                 <option value="deep-learning">Deep Learning</option>
                                 <option value="automatizacion">Automatización</option>
-                                <option value="chatbots">Chatbots</option>
+
                                 <option value="analytics">Analítica Predictiva</option>
                                 <option value="vision">Visión por Computadora</option>
                                 <option value="nlp">Procesamiento de Lenguaje</option>
